@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    color: rgb(254, 253, 253) ;
+    display: flex;
+      flex-direction: column;
+      text-align: center;
+      position: absolute;
+      font-size: larger;
+      margin-left: 300px;
+      font-weight: bolder;
+      padding-top: 5vh;
+      
+}
+#backgroundImage{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 110vh;
+   /* filter: blur(); */
+   
+}
+/* .run{
+    background-color: grey;
+    width: 85vw;
+    height: 55vh;
+} */
+#fr{
+    writing-mode: vertical-rl;
+}
